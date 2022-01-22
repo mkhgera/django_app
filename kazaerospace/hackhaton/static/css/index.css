@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html body{
+    background: #212332;
+    color: #ffffff;
+    font-family: 'Bitter', serif;
+    margin: 3em;
+  }
+  
+  .table tbody tr.selected td{
+    color: #ffffff;
+  }
+  th{
+    color: #ffffff;
+  }
+  tr{
+    color: #ffffff;
+  }
+  
+  button{
+    margin-left: 6%;
+    margin-bottom: 3%;
+    background: #2196F3;
+    border: 1px solid transparent;
+    border-radius: 0.5em;
+    border-color: #2196F3;
+    box-sizing: border-box;
+    margin-right: 2em;
+  }
+  
+  button:hover{
+    background-color: #294E97;
+    border: none;
+    
+  }
+  
+  button:focus{
+    background: #294E97;
+    border: none;
+  }

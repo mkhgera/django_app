@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+#id_lat, #id_lng{
+  height: 0;
+}
+html body{
+  background: #212332;
+  color: #ffffff;
+  font-family: 'Bitter', serif;
+  margin: 3em;
+}
+
+.info input{
+  background: #2A2D3E;
+  border-radius: 0.5em;
+  border-color: #2A2D3E;
+}
+
+.info input:focus{
+  background: #2A2D3E;
+  border-radius: 0.5em;
+  border-color: #2A2D3E;
+}
+
+.mapBTN button{
+  background: #2A2D3E;
+  border: 1px solid transparent;
+  border-radius: 0.5em;
+  border-color: #294E97;
+  box-sizing: border-box;
+  margin-right: 2em;
+}
+
+.mapBTN button:hover{
+  background: #294E97;
+  border: none;
+}
+
+.mapBTN button:focus{
+  background: #294E97;
+  border: none;
+}
+
+.formBTN button{
+  background: #2196F3;
+  border: 1px solid transparent;
+  border-radius: 0.5em;
+  border-color: #2196F3;
+  box-sizing: border-box;
+  margin-right: 2em;
+}
+
+.formBTN button:hover{
+  background-color: #294E97;
+  border: none;
+  
+}
+
+.fromBTN button:focus{
+  background: #294E97;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .info{
+      display: block;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .btn{
+      display: block;
+      flex-direction: column;
+      margin-top: 1em;
+  }
+}
